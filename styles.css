@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conainer {
+    background-image: url(./nick-jio-57rD2oDZquc-unsplash.jpg);
+    display: flex;
+
+}
