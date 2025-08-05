@@ -31,10 +31,12 @@ h3 {
     margin-top: .5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    padding: 2rem;
+    padding: 5rem;
+    margin: 2rem;
 }
 
-.score {
+#guestscore,
+#homescore {
     font-size: 3rem;
     font-weight: 700;
     color: #fff;
