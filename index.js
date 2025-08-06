@@ -4,54 +4,57 @@ let guestScore = document.getElementById("guestscore");
 //fetching the innertext of the button
 let buttonText = document.getElementsByClassName("btn");
 
-let scoreNum = 0;
+let homeScoreNum = 0;
+let guestScoreNum = 0;
 
 //incrementing the score by 1, 2, or 3 for home team
 function increment1() {
   //incrementing the score by 1
-  scoreNum += 1;
-  homeScore.textContent = scoreNum; 
+  homeScoreNum += 1;
+  homeScore.textContent = homeScoreNum; 
 }
 
 
 function increment2() {
   //incrementing the score by 2
-  scoreNum += 2;
-  homeScore.textContent = scoreNum; 
+  homeScoreNum += 2;
+  homeScore.textContent = homeScoreNum; 
 } 
 
 function increment3() {
   //incrementing the score by 3
-  scoreNum += 3;
-  homeScore.textContent = scoreNum; 
+  homeScoreNum += 3;
+  homeScore.textContent = homeScoreNum; 
 } 
 
-function reset() {
-    //resetting the score to 0
-    scoreNum = 0;
-    homeScore.textContent = scoreNum; 
-    guestScore.textContent = scoreNum;
-}
+
 
 //incrementing the score by 1, 2, or 3 for guest team
 function increment11() {
   //incrementing the score by 1
-  scoreNum += 1;
-  guestScore.textContent = scoreNum; 
+  guestScoreNum += 1;
+  guestScore.textContent = guestScoreNum; 
 }
 
 
 function increment22() {
   //incrementing the score by 2
-  scoreNum += 2;
-  guestScore.textContent = scoreNum; 
+  guestScoreNum += 2;
+  guestScore.textContent = guestScoreNum; 
 } 
 
 function increment33() {
   //incrementing the score by 3
-  scoreNum += 3;
-  guestScore.textContent = scoreNum; 
+  guestScoreNum += 3;
+  guestScore.textContent = guestScoreNum; 
 } 
 
-
+function reset() {
+    //resetting the score to 0
+    homeScoreNum = 0;
+    guestScoreNum = 0;
+    homeScore.textContent = homeScoreNum; 
+    guestScore.textContent = guestScoreNum;
+    
+}
 
